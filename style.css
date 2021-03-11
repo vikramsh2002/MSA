@@ -1,0 +1,28 @@
+body {
+  background-color: lightblue;
+}
+video{
+box-sizing:border-box;
+border:1px solid blue;
+background-color:#00ccff;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+float:center;
+margin-top:100px;
+margin-left:400px;
+content-position:relative;
+}
+
+
+
+video:hover{
+	background-color:#66ff66;
+	
+}
+@media screen and (max-width: 600px){
+   video{
+	   width:80%;
+	   height:80%;
+	   margin:0px;
+	   
+   }
+}
